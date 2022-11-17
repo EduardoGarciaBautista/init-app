@@ -3,6 +3,29 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "@services/*": [
+        "src/app/core/services/*"
+      ],
+      "@constants/*": [
+        "src/app/core/constants/*"
+      ],
+      "@enums/*": [
+        "src/app/core/enums/*"
+      ],
+      "@interfaces/*": [
+        "src/app/ore/interfaces/*"
+      ],
+      "@models/*": [
+        "src/app/core/models/*"
+      ],
+      "@shared/*": [
+        "src/app/shared/*"
+      ],
+      "@styles/*": [
+        "src/styles/*"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
